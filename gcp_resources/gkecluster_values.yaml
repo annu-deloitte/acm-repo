@@ -1,10 +1,10 @@
 projectname: us-gcp-ame-its-23a8a-sbx-1
 
 Namespace:
-  name: team3-product-ns
+  name: product-ns
 
 ContainerNodePool:
-  name: team3-nodepool
+  name: a-final-app-nodepool
   location: us-central1
   autoscalingmin: 1
   autoscalingmax: 3
@@ -22,7 +22,7 @@ ContainerNodePool:
     name: team3-app-gke
 
 ContainerCluster:
-  name: team3-app-gke
+  name: a-final-app
   location: us-central1
   initialNodeCount: 3
   workloadIdentityConfig:
@@ -30,4 +30,5 @@ ContainerCluster:
   configConnectorConfigenabled: true
   networkRef: a-dep-network
   subnetworkRef: a-dep-network
-  serviceAccountRef: annu-7299@us-gcp-ame-its-23a8a-sbx-1.iam.gserviceaccount.com
+  serviceAccountRef: tf-gke-anthos-product--zr38@us-gcp-ame-its-23a8a-sbx-1.iam.gserviceaccount.com
+
