@@ -5,7 +5,7 @@ Namespace:
 
 ContainerNodePool:
   name: team3-nodepool
-  location: us-east1-c
+  location: us-central1
   autoscalingmin: 1
   autoscalingmax: 3
   nodeConfig:
@@ -23,7 +23,7 @@ ContainerNodePool:
 
 ContainerCluster:
   name: team3-app-gke
-  location: us-east1-c
+  location: us-central1
   initialNodeCount: 3
   workloadIdentityConfig:
     workloadPool: us-gcp-ame-its-23a8a-sbx-1.svc.id.goog
