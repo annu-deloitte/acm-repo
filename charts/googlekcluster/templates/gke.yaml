@@ -18,6 +18,6 @@ spec:
     external: {{ .Values.ContainerCluster.networkRef }}
   subnetworkRef: 
     external: {{ .Values.ContainerCluster.subnetworkRef }}
-  #nodeConfig:
-  #  serviceAccountRef:
-  #    external: {{ .Values.ContainerCluster.serviceAccountRef }}
+  nodeConfig:
+   serviceAccountRef:
+     external: {{ .Values.ContainerCluster.serviceAccountRef }}
