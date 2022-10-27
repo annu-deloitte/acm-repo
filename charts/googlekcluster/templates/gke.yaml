@@ -1,0 +1,23 @@
+apiVersion: container.cnrm.cloud.google.com/v1beta1
+kind: ContainerCluster
+metadata:
+  annotations:
+    #cnrm.cloud.google.com/remove-default-node-pool: "true"
+    cnrm.cloud.google.com/project-id: {{ .Values.projectname }}
+  name: {{ .Values.ContainerCluster.name }}
+  namespace: {{ .Values.Namespace.name }}
+spec:
+  location: {{ .Values.ContainerCluster.location }}
+  initialNodeCount: {{ .Values.ContainerCluster.initialNodeCount }}
+  workloadIdentityConfig:
+    workloadPool: {{ .Values.ContainerCluster.workloadIdentityConfig.workloadPool }}
+  addonsConfig:
+    configConnectorConfig:
+      enabled: {{ .Values.ContainerCluster.configConnectorConfigenabled }}
+  networkRef:
+    external: {{ .Values.ContainerCluster.networkRef }}
+  subnetworkRef: 
+    external: {{ .Values.ContainerCluster.subnetworkRef }}
+  #nodeConfig:
+  #  serviceAccountRef:
+  #    external: {{ .Values.ContainerCluster.serviceAccountRef }}
