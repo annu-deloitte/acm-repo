@@ -19,7 +19,7 @@ ContainerNodePool:
     autoRepair: true
     autoUpgrade: true
   clusterRef:
-    name: team3-app-gke
+    name: a-final-app
 
 ContainerCluster:
   name: a-final-app
