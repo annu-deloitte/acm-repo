@@ -12,15 +12,15 @@ GKEHubFeature:
 GKEHubFeatureMembership:
 
   location: global
-  name: team3-featuremembership
-  membershipRef: projects/us-gcp-ame-its-23a8a-sbx-1/locations/global/memberships/team3-membership
+  name: a-featuremembership
+  membershipRef: projects/us-gcp-ame-its-23a8a-sbx-1/locations/global/memberships/a-membership
   featureRef: projects/us-gcp-ame-its-23a8a-sbx-1/locations/global/features/configmanagement
 
   sourceFormat: unstructured
   git:
-    syncRepo: "git@github.com:GoogleCloudPlatform/bank-of-anthos.git"
+    syncRepo: "https://github.com/GoogleCloudPlatform/microservices-demo.git"
     syncBranch: "main"
-    policyDir: "kubernetes-manifests"
+    policyDir: "./release"
     syncWaitSecs: "20"
     syncRev: "HEAD"
     secretType: "none"
@@ -38,7 +38,7 @@ GKEHubFeatureMembership:
 
 GKEHubMembership:
 
-  name: team3-membership
+  name: a-membership
   location: global
   authorityissuer: https://container.googleapis.com/v1/projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-central1/clusters/a-final-app
   gkeCluster: https://container.googleapis.com/v1beta1/projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-central1/clusters/a-final-app
