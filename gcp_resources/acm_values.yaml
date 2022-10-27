@@ -40,5 +40,5 @@ GKEHubMembership:
 
   name: team3-membership
   location: global
-  authorityissuer: https://container.googleapis.com/v1/projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-central1/clusters/team3-app-gke
-  gkeCluster: https://container.googleapis.com/v1beta1/projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-central1/clusters/team3-app-gke
+  authorityissuer: https://container.googleapis.com/v1/projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-central1/clusters/a-final-app
+  gkeCluster: https://container.googleapis.com/v1beta1/projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-central1/clusters/a-final-app
