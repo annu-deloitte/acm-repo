@@ -8,4 +8,4 @@ dependencies:
 - name: googlekcluster
   version: "0.1.0"
   enabled: "true"
-  repository: "https://container.googleapis.com/v1beta1/projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-west1/clusters/a-final-app-1"
+  repository: "file://../googlekcluster"
