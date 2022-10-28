@@ -5,9 +5,9 @@ Namespace:
 
 ContainerNodePool:
   name: a-final-app-nodepool
-  location: us-central1
-  autoscalingmin: 1
-  autoscalingmax: 3
+  location: us-west1
+  autoscalingmin: 5
+  autoscalingmax: 6
   nodeConfig:
     machineType: n1-standard-1
     diskSizeGb: 100
@@ -23,7 +23,7 @@ ContainerNodePool:
 
 ContainerCluster:
   name: a-final-app
-  location: us-central1
+  location: us-west1
   initialNodeCount: 3
   workloadIdentityConfig:
     workloadPool: us-gcp-ame-its-23a8a-sbx-1.svc.id.goog
