@@ -1,0 +1,4 @@
+dependencies:
+- name: googlekcluster
+  version: "0.1.0"
+  repository: "https://github.com/annu-deloitte/acm-repo/tree/master/charts/googlekcluster"
