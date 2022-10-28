@@ -2,7 +2,7 @@ apiVersion: gkehub.cnrm.cloud.google.com/v1beta1
 kind: GKEHubMembership
 metadata:
   annotations:
-    config.kubernetes.io/depends-on: https://container.googleapis.com/v1beta1/projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-west1/clusters/a-final-app-2
+    config.kubernetes.io/depends-on: projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-west1/clusters/a-final-app-2
     cnrm.cloud.google.com/project-id: {{ .Values.projectid }}
   name: {{ .Values.GKEHubMembership.name }}
   namespace: {{ .Values.namespace }}
