@@ -13,7 +13,7 @@ GKEHubFeatureMembership:
 
   location: global
   name: a-featuremembership
-  membershipRef: projects/us-gcp-ame-its-23a8a-sbx-1/locations/global/memberships/a-membership-1
+  membershipRef: projects/us-gcp-ame-its-23a8a-sbx-1/locations/global/memberships/a-membership-2
   featureRef: projects/us-gcp-ame-its-23a8a-sbx-1/locations/global/features/configmanagement
 
   sourceFormat: unstructured
@@ -38,7 +38,7 @@ GKEHubFeatureMembership:
 
 GKEHubMembership:
 
-  name: a-membership-1
+  name: a-membership-2
   location: global
-  authorityissuer: https://container.googleapis.com/v1/projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-west1/clusters/a-final-app-2
-  gkeCluster: https://container.googleapis.com/v1beta1/projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-west1/clusters/a-final-app-2
+  authorityissuer: https://container.googleapis.com/v1/projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-west1/clusters/a-final-app-3
+  gkeCluster: https://container.googleapis.com/v1beta1/projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-west1/clusters/a-final-app-3
