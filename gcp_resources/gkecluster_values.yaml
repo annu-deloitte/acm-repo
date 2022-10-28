@@ -22,7 +22,7 @@ ContainerNodePool:
     name: a-final-app
 
 ContainerCluster:
-  name: a-final-app-2
+  name: a-final-app-3
   location: us-west1
   initialNodeCount: 3
   workloadIdentityConfig:
