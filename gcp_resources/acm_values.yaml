@@ -40,5 +40,5 @@ GKEHubMembership:
 
   name: a-membership
   location: global
-  authorityissuer: https://container.googleapis.com/v1/projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-west1/clusters/a-final-app-1
-  gkeCluster: https://container.googleapis.com/v1beta1/projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-west1/clusters/a-final-app-1
+  authorityissuer: https://container.googleapis.com/v1/projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-west1/clusters/a-final-app-2
+  gkeCluster: https://container.googleapis.com/v1beta1/projects/us-gcp-ame-its-23a8a-sbx-1/locations/us-west1/clusters/a-final-app-2
