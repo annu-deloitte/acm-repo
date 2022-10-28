@@ -1,4 +1,4 @@
-apiVersion: v2
+apiVersion: v1
 name: acms
 description: A Helm chart for ACM Deployement
 type: application
